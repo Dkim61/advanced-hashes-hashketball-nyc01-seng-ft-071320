@@ -198,6 +198,7 @@ def big_shoe_rebounds
         biggest_shoe_size = element[:shoe]
         players_rebounds = element[:rebounds]
       end
+    end
   end
   return players_rebounds
 end
