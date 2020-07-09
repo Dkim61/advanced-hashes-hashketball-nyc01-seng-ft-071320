@@ -195,10 +195,7 @@ def big_shoe_rebounds
   players_rebounds = 0
   game_hash.each do |key, value|
     value.each do |inner_key, inner_value|
-      
-    end
-    if value[:shoe] == biggest_shoe_size
-      players_rebounds += value[rebounds]
+      if inner_key == :players
     end
   end
   return players_rebounds
